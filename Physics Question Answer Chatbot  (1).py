@@ -113,7 +113,8 @@ interactive_conversation = pn.bind(collect_messages, button_conversation)
 dashboard = pn.Column(
     inp,
     pn.Row(button_conversation),
-    pn.panel(interactive_conversation, loading_indicator=True, height=300),
+    pn.panel(interactive_conversation, loading_indicator=True, height=300), ### Error in line can we improve this code, line 111 and \
+                                                                            ##  line 54.
 )
 
 dashboard
